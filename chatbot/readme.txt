@@ -37,3 +37,5 @@ cpp
 
 
 http://127.0.0.1:5000
+
+for api : https://aistudio.google.com/prompts/new_chat or https://ai.google.dev/ 
