@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.secret_key = secrets.token_hex(16)  
 
 # Initialize Gemini AI Client
-genai.configure(api_key="AIzaSyAzPxT6e3nebRyMxMmRnx5RrYj8NUkClvU")  # Replace with your actual API key
+genai.configure(api_key="")  # Replace with your actual API key
 model = genai.GenerativeModel("gemini-2.0-pro-exp-02-05")  # Correct model
 
 def get_gemini_response(prompt, history):
